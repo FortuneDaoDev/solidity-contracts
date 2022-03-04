@@ -1688,7 +1688,7 @@ contract FortuneDao is ERC721A, Ownable, ReentrancyGuard {
     uint256 public immutable maxMint;
     uint256 public immutable maxSupply;
     uint256 public immutable reserveAmount;
-    uint256 public PRICE = 0.01 * 10**18; // 0.01 ETH
+    uint256 public PRICE = 0.088 * 10**18; // 0.088 ETH
 
     mapping(address => bool) public publicMinted;
     mapping(address => bool) public whitelistMinted;
